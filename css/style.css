@@ -1,0 +1,634 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* --------- Common CSS --------- */
+body {
+    font-family: 'Montserrat', Arial, serif;
+    font-weight: 300;
+    color: #404040;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.header
+{
+	background-color:#FFF;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.p-wrapper {
+    padding-bottom: 0 !important;
+    /*padding-top: 196px;*/
+}
+
+.rimming-strip
+{
+	padding: 30px 0;
+	background-color: #00b5d2;
+	font-family: 'Montserrat', Arial, serif;
+	color: #fff;
+	font-weight: 600;
+	font-size: 24px;
+}
+.center-title
+{
+	text-align:center;
+}
+.left-title
+{
+	text-align:left;
+}
+.section-title
+{
+	font-family: 'Montserrat', Arial, serif;
+    font-weight: 800;
+    color: #231f20;
+    font-size: 65px;
+    line-height: 70px;
+	margin-bottom: 20px;
+}
+
+.section-sub-title
+{
+	font-family: 'Montserrat', Arial, serif;
+	color: #231f20;
+    font-size: 26px;
+	margin-bottom:15px;
+	font-weight:400;
+	line-height: 30px;
+}
+
+.section-para
+{
+	font-family: 'Montserrat', Arial, serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.divider
+{
+	height:10px;
+	width:88px;
+	background-color:#231f20;
+	margin:20px auto;
+}
+.left-title .divider
+{
+	margin-left:0;
+}
+.content-title
+{
+	font-family: 'Montserrat', Arial, serif;
+	color: #231f20;
+    font-size: 33px;
+	margin-bottom:15px;
+	font-weight:800;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+
+.color-red
+{
+	color:#ff4027;
+}
+.section-para a
+{
+	color:#2966c3;
+	text-decoration:underline;
+}
+.row
+{
+	margin-left:0;
+}
+
+.pull-quote
+{
+	background-image:url(../images/pull-quote-bg.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	margin-bottom: 50px;
+}
+.pull-quote .circle
+{
+	width:585px;
+	height:585px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	background-color:#2966c3;	
+	margin:0 auto;
+	-webkit-border-radius: 300px;
+  	-moz-border-radius: 300px;
+  	border-radius: 300px;
+}
+.pull-quote .circle .quotes
+{
+	text-align: center;
+	color: #FFF;
+	font-size: 26px;
+	font-weight: 700;
+	line-height:37px;
+	padding:0 50px;
+}
+.pull-quote .circle .circle-img
+{
+	text-align:center;
+	margin-bottom:20px;
+}
+
+/* --------- Footer Menu --------- */
+.footer-title
+{
+	font-family: "Roboto Slab",Arial,serif;
+}
+.footer .col-1 {
+    margin-right: 30px;
+}
+
+/* --------- Banner --------- */
+.main_banner
+{
+	background-color:#2966c3;
+	background-image:url(../images/banner-bg.jpg);
+	background-position:top;
+	background-repeat:repeat-x;
+}
+.main_banner .board
+{
+	text-align:center;
+	margin: 110px 0 50px;
+}
+.main_banner .text-content
+{
+	font-family: 'Montserrat', Arial, serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 22px;
+    line-height: 34px;
+	text-align:center;
+	padding: 0 75px;
+	margin-bottom: 50px;
+}
+
+
+/* --------- Try it alone --------- */
+.try_alone
+{
+	padding:80px 0 0;
+}
+.try_alone .try_alone_mobile
+{
+	display:none;
+}
+.try_alone .try_alone_desktop
+{
+	display:block;
+}
+.try_alone .try_alone_desktop .col-1
+{
+	float:left;
+	width:50%;
+}
+.try_alone .try_alone_desktop .section-para
+{
+	margin-top: 12px;
+	padding-right: 35px;
+}
+
+
+/* --------- Hygiene tips --------- */
+.hygiene_tips .section-banner
+{
+	background-image:url(../images/hygiene-tips-banner-bg.jpg);
+	background-position:center center;
+	padding: 50px 0;
+}
+.hygiene_tips .section-banner .section-banner-desktop
+{
+	display:block;
+}
+.hygiene_tips .section-banner .section-banner-mobile
+{
+	display:none;
+}
+.hygiene_tips .section-banner .section-banner-desktop .col-1
+{
+	float:left;
+	width:50%;
+}
+.hygiene_tips .section-banner .section-banner-desktop .hygiene_tips_banner_img
+{
+	text-align: center;
+    margin-top: -70px;
+
+}
+
+.hygiene_tips .section-content
+{
+	padding:80px 0;
+}
+.hygiene_tips .section-content .tip-block
+{
+	margin-bottom:50px;
+}
+.hygiene_tips .section-content .tip-block:last-child
+{
+	margin-bottom:0;
+}
+.hygiene_tips .section-content .tip-block .tip-img
+{
+	text-align:center;
+	margin-bottom:30px;
+}
+.hygiene_tips .section-content .tip-block .tip-content
+{
+	text-align:center;
+	padding:0 80px;
+}
+
+
+/* --------- Hygiene facts --------- */
+.hygiene_facts
+{
+	background-color:#00DC9A;
+	padding:80px 0 0;
+}
+.hygiene_facts .section-para
+{
+	text-align:center;
+	width:850px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.hygiene_facts .facts_block
+{
+	margin:80px 0;
+}
+.hygiene_facts .facts_block .main_img
+{
+	text-align:center;
+	margin:50px 0;
+}
+.hygiene_facts .facts_block .content-title
+{
+	text-align:center;
+}
+.hygiene_facts .facts_block .steps
+{
+	margin:100px auto;
+	width:1000px;
+}
+.hygiene_facts .facts_block .steps .step_block
+{
+	margin-bottom:30px;
+}
+.hygiene_facts .facts_block .steps .step_block .step_block_desktop
+{
+	display: flex;
+	align-items: center;	
+}
+.hygiene_facts .facts_block .steps .step_block .step_block_mobile
+{
+	display:none;
+}
+.hygiene_facts .facts_block .steps .step_block .step_block_desktop .step-img
+{
+	margin-right:30px;
+	width: 450px;
+}
+.hygiene_facts .facts_block .steps .step_block .step_block_desktop .text-content
+{
+	width: 550px;
+}
+.hygiene_facts .facts_block .steps .step_block .step_block_desktop .content-title
+{
+	text-align:left;
+	margin-bottom: 0px;
+}
+.hygiene_facts .facts_block .steps .step_block .step_block_desktop .section-para
+{
+	text-align:left;
+	width:auto;
+}
+.hygiene_facts .pull-quote .circle
+{
+	background-color: #fff;
+}
+.hygiene_facts .pull-quote .circle .quotes
+{
+	color:#231f20;
+}
+
+
+
+/* --------- How to talk anal --------- */
+.how-to-talk-anal
+{
+}
+.how-to-talk-anal .section-banner
+{
+	background-image:url(../images/how-to-talk-about-anal-bg.jpg);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	background-color:#80ecff;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+.how-to-talk-anal .section-banner .banner-left
+{
+	float: left;
+	width: 400px;
+}
+.how-to-talk-anal .section-banner .banner-right
+{
+	float: left;
+	width: 700px;
+	padding-left: 70px;
+}
+.how-to-talk-anal .section-banner .banner-right .banner-img-desktop
+{
+	display:block;
+}
+.how-to-talk-anal .section-banner .banner-right .banner-img-mobile
+{
+	display:none;
+}
+.how-to-talk-anal .section-content
+{
+	padding: 50px 0;
+}
+.how-to-talk-anal .section-content .content-block
+{
+	display:flex;
+	margin-bottom: 50px;
+}
+.how-to-talk-anal .section-content .content-block .text-col
+{
+	width: 680px;
+	padding-right: 70px;
+}
+.how-to-talk-anal .section-content .content-block .img-col
+{
+	width: 450px;
+	text-align: center;
+}
+.how-to-talk-anal .pull-quote
+{
+	background-color: #00DC9A;
+	padding:50px 0;
+}
+.how-to-talk-anal .pull-quote .circle
+{
+	background-color: #fff;
+}
+.how-to-talk-anal .pull-quote .circle .quotes
+{
+	color:#231f20;
+}
+.how-to-talk-anal .section-content .content-block-row
+{
+	text-align:center;
+	margin-bottom: 50px;
+}
+.how-to-talk-anal .section-content .content-block-row .img-row
+{
+	margin-bottom:30px;
+}
+
+/* --------- Rookie mistakes --------- */
+.rookie_mistakes
+{
+	background-color:#7FEBFF;
+	padding:80px 0;
+}
+.rookie_mistakes .center-title
+{
+	padding:0 50px;
+}
+.rookie_mistakes .mistakes-block
+{
+	margin-top:50px;
+}
+.rookie_mistakes .mistakes-block .mistake-text
+{
+	font-family: 'Montserrat', Arial, serif;
+	color: #231f20;
+    font-size: 33px;
+	margin-bottom:15px;
+	font-weight:800;
+	line-height: 40px;
+}
+.rookie_mistakes .mistakes-block .mistake-left
+{
+	width: 700px;
+	display: flex;
+	align-items: center;
+}
+.rookie_mistakes .mistakes-block .mistake-right
+{
+	width: 700px;	
+	float: right;
+}
+.rookie_mistakes .mistakes-block .mistake-right .mistake-text
+{
+	width:700px;
+	text-align:center;
+}
+.rookie_mistakes .mistakes-block .mistake-1
+{
+	background-image:url(../images/not-using-lube.png);
+	background-repeat:no-repeat;
+	height: 330px;
+}
+.rookie_mistakes .mistakes-block .mistake-1 .mistake-text
+{
+	margin-left: 300px;
+	margin-top: 110px;
+}
+.rookie_mistakes .mistakes-block .mistake-2
+{
+	background-image:url(../images/not-having-foreplay.png);
+	background-repeat:no-repeat;
+	height:230px;
+	margin-bottom: 30px;
+}
+.rookie_mistakes .mistakes-block .mistake-2 .mistake-text
+{
+	margin-top: 245px;
+}
+.rookie_mistakes .mistakes-block .mistake-3
+{
+	background-image:url(../images/not-using-protection.png);
+	background-repeat:no-repeat;
+	height: 300px;
+}
+.rookie_mistakes .mistakes-block .mistake-3 .mistake-text
+{
+	margin-left: 338px;
+	margin-top: 110px;
+}
+.rookie_mistakes .mistakes-block .mistake-4
+{
+	background-image:url(../images/not-communicating-with-your-partner.png);
+	background-repeat:no-repeat;
+	height:425px;
+	margin-bottom: 30px;
+}
+.rookie_mistakes .mistakes-block .mistake-4 .mistake-text
+{
+	margin-top: 435px;
+}
+.rookie_mistakes .mistakes-block .mistake-5
+{
+	background-image: url(../images/not-going-slow-enough.png);
+	background-repeat: no-repeat;
+	height: 326px;
+	width: 800px;
+}
+.rookie_mistakes .mistakes-block .mistake-5 .mistake-text
+{
+	margin-left: 365px;
+	margin-top: 110px;
+}
+.rookie_mistakes .mistakes-block .mistake-6
+{
+	background-image:url(../images/not-cleaning-up.png);
+	background-repeat:no-repeat;
+	height:425px;
+	margin-bottom: 30px;
+}
+.rookie_mistakes .mistakes-block .mistake-6 .mistake-text
+{
+	margin-top: 435px;
+}
+.rookie_mistakes .mistakes-block .mistake-7
+{
+	background-image:url(../images/not-cleaning-your-toy.png);
+	background-repeat: no-repeat;
+	height: 352px;
+	width: 800px;
+}
+.rookie_mistakes .mistakes-block .mistake-7 .mistake-text
+{
+	margin-left: 400px;
+	margin-top: 110px;
+}
+.rookie_mistakes .mistakes-block .mistake-8
+{
+	background-image:url(../images/not-peeing-after-anal-sex.png);
+	background-repeat:no-repeat;
+	height:230px;
+	margin-bottom: 30px;
+}
+.rookie_mistakes .mistakes-block .mistake-8 .mistake-text
+{
+	margin-top: 250px;
+}
+.rookie_mistakes .mistakes-block .mistake-9
+{
+	background-image:url(../images/not-performing-aftercare.png);
+	background-repeat: no-repeat;
+	height: 367px;
+	width: 800px;
+}
+.rookie_mistakes .mistakes-block .mistake-9 .mistake-text
+{
+	margin-left: 325px;
+	margin-top: 110px;
+}
+
+/* --------- Anal aftercare --------- */
+.anal_aftercare
+{
+	padding:80px 0;
+}
+.anal_aftercare .section-para
+{
+	text-align:center;
+	padding: 0 50px;
+	margin-bottom: 100px;
+}
+.anal_aftercare .section-img
+{
+	text-align:center;
+}
+
+
+/* --------- Product --------- */
+.product
+{
+	padding:80px 0;
+}
+.product .title-block
+{
+	text-align:center;
+	margin-bottom:80px;
+}
+.product .text-columns .row
+{
+	margin-left:0;
+}
+.product .text-columns .row .product-block
+{
+	text-align: center;
+	width: 330px;
+	float: left;
+	padding: 0 30px;
+}
+.product .text-columns .row .product-block .product-img
+{
+	height: 250px;
+	display: flex;
+	width: 100%;
+	align-items: flex-end;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.product .text-columns .row .product-block .product-title
+{
+	font-family: 'Montserrat', Arial, serif;
+    font-weight: 800;
+    color: #231f20;
+    font-size: 27px;
+    line-height: 37px;
+	margin-bottom: 20px;
+}
+.product .text-columns .row .product-block .product-para
+{
+	font-family: 'Montserrat', Arial, serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    line-height: 30px;
+}
+.product .text-columns .row .product-block .product-desc
+{
+	min-height: 380px;
+}
+.product .text-columns .row .product-block .buy-now
+{
+
+}
+.product .text-columns .row .product-block .buy-now a
+{
+	font-family: 'Montserrat', Arial, serif;
+	background-color:#80e7ff;
+	font-size:30px;
+	text-transform:uppercase;
+	padding: 10px 30px;
+}
+.product .text-columns .row .product-block .buy-now a:hover
+{
+	background-color:#fff;
+	border:solid 1px #10c0d9;
+}
+
+

@@ -1,0 +1,628 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* MEDIA QUERIES */
+/* ---------------- Extra Large Devices, Wide Screens ---------------- */
+@media only screen and (max-width : 1400px) 
+{
+
+
+
+}
+/* ---------------- Large Devices, Wide Screens ---------------- */
+@media only screen and (max-width : 1200px) 
+{
+	
+.section-title
+{
+	font-size:60px;
+}
+.pull-quote
+{
+	background-image:none;
+}
+
+/* --------- Banner --------- */
+
+
+/* --------- Try it alone --------- */
+.try_alone .try_alone_mobile
+{
+	display:block;
+}
+.try_alone .try_alone_desktop
+{
+	display:none;
+}
+.try_alone .try_alone_mobile .try_alone_img
+{
+	text-align:center;
+	margin:30px 0;
+}
+.try_alone .try_alone_mobile .section-para
+{
+	text-align:center;
+	padding:0 50px;
+}
+.try_alone {
+
+    padding: 80px 0;
+
+}
+
+/* --------- Hygiene tips --------- */
+.hygiene_tips .section-banner .section-banner-desktop
+{
+	display:none;
+}
+.hygiene_tips .section-banner .section-banner-mobile
+{
+	display:block;
+}
+.hygiene_tips .section-banner
+{
+	background-image:url(../images/hygiene-tips-banner-bg-mobile.png);
+	background-position:top center;
+	background-color:#80ecff;
+	background-repeat:no-repeat;
+}
+.hygiene_tips .section-banner .left-title
+{
+	text-align:center;
+}
+.hygiene_tips .section-banner .section-title,
+.hygiene_tips .section-banner .section-sub-title
+{
+	color:#FFF;
+}
+.hygiene_tips .section-banner .divider
+{
+	background-color:#FFF;
+	margin-left:auto;
+}
+.hygiene_tips .section-banner .section-banner-mobile .hygiene_tips_banner_img
+{
+	width: 350px;
+	margin: 40px auto;
+}
+.hygiene_tips .section-banner .section-banner-mobile .section-para
+{
+	text-align:center;
+	padding:0 80px;
+}
+
+
+/* --------- Hygiene facts --------- */
+.hygiene_facts .facts_block .main_img
+{
+	margin: 50px auto;
+	width: 80%;
+}
+.hygiene_facts .facts_block .steps 
+{
+	width:auto;
+}
+.hygiene_facts .facts_block .steps .step_block .step_block_desktop
+{
+	display:none;
+}
+.hygiene_facts .facts_block .steps .step_block .step_block_mobile
+{
+	display:block;
+}
+.hygiene_facts .facts_block .steps .step_block .step_block_mobile .step-img
+{
+	text-align:center;
+	margin-bottom:30px;
+}
+
+/* --------- How to talk anal --------- */
+.how-to-talk-anal .section-banner .banner-left
+{
+	width: auto;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.how-to-talk-anal .section-banner .banner-left .left-title
+{
+	text-align:center;
+}
+.how-to-talk-anal .section-banner .banner-left .left-title .divider
+{
+	margin-left:auto;
+}
+.how-to-talk-anal .section-banner .banner-right 
+{
+    float: none;
+    width: 600px;
+    padding-left: 0;
+    margin: 0px auto;
+}
+.how-to-talk-anal .section-content .content-block
+{
+	flex-direction: column;
+}
+.how-to-talk-anal .section-content .content-block .text-col
+{
+	order:2;
+	width: auto;
+	text-align: center;
+	padding-right: 0;
+}
+.how-to-talk-anal .section-content .content-block .img-col
+{
+	order:1;
+	width: auto;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+/* --------- Rookie mistakes --------- */
+.rookie_mistakes .mistakes-block .mistake-left
+{
+	width: 100%;
+	display: block;
+	float: left;
+	background-position:center top;	
+}
+.rookie_mistakes .mistakes-block .mistake-left .mistake-text
+{
+	margin-left: 0;	
+	width: 100%;
+	text-align: center;
+}
+.rookie_mistakes .mistakes-block .mistake-right 
+{
+    width: 100%;
+    float: left;
+    background-position: center top;
+}
+.rookie_mistakes .mistakes-block .mistake-right .mistake-text
+{
+	width: 100%;
+	text-align: center;
+}
+.rookie_mistakes .mistakes-block .mistake-1
+{
+	height:450px;
+}
+.rookie_mistakes .mistakes-block .mistake-1 .mistake-text
+{
+	margin-top: 335px;	
+}
+.rookie_mistakes .mistakes-block .mistake-2
+{
+	height: 300px;
+}
+.rookie_mistakes .mistakes-block .mistake-3
+{
+	height: 400px;
+}
+.rookie_mistakes .mistakes-block .mistake-3 .mistake-text
+{
+	margin-top: 315px;
+}
+.rookie_mistakes .mistakes-block .mistake-4
+{
+	height: 540px;
+}
+.rookie_mistakes .mistakes-block .mistake-5
+{
+	height: 426px;
+}
+.rookie_mistakes .mistakes-block .mistake-5 .mistake-text
+{
+	margin-top: 340px;
+}
+.rookie_mistakes .mistakes-block .mistake-6
+{
+	height: 525px;
+}
+.rookie_mistakes .mistakes-block .mistake-7
+{
+	height: 480px;
+}
+.rookie_mistakes .mistakes-block .mistake-7 .mistake-text
+{
+	margin-top: 345px;
+}
+.rookie_mistakes .mistakes-block .mistake-8
+{
+	height: 300px;
+}
+.rookie_mistakes .mistakes-block .mistake-9
+{
+	height: 440px;
+}
+.rookie_mistakes .mistakes-block .mistake-9 .mistake-text
+{
+	margin-top: 385px;
+}
+
+
+/* --------- Anal aftercare --------- */
+
+
+
+/* --------- Product --------- */
+.product .title-block 
+{
+    width: 500px;
+    margin: 0 auto 50px;
+}
+.product .text-columns .row .product-block
+{
+	width:650px;
+	float:none;
+	margin:0 auto 50px;
+}
+.product .text-columns .row .product-block .product-para
+{
+	height:auto;
+	margin-bottom: 20px;
+}
+.product .text-columns .row .product-block .buy-now 
+{
+    display: flex;
+    justify-content: center;
+}
+.product .text-columns .row .product-block .buy-now a
+{
+	padding: 20px 30px;
+}
+.product .text-columns .row .product-block .product-img
+{
+	height:auto;
+}
+.product .text-columns .row .product-block .product-desc
+{
+	min-height: auto;
+}
+}
+
+
+
+/* ---------------- Medium Devices, Desktops ---------------- */
+@media only screen and (max-width : 1024px){
+
+
+}
+
+@media only screen and (max-width : 992px){
+
+/* --------- Banner --------- */
+.main_banner .text-content
+{
+	padding: 0 50px;
+}
+
+/* --------- Try it alone --------- */
+
+
+
+/* --------- Hygiene tips --------- */
+.hygiene_tips .section-banner .section-banner-mobile .section-para
+{
+	padding: 0 50px;
+}
+.hygiene_tips .section-content .tip-block .tip-content
+{
+	padding: 0 50px;
+}
+
+
+/* --------- Hygiene facts --------- */
+.hygiene_facts .section-para
+{
+	width:auto;
+}
+
+/* --------- How to talk anal --------- */
+
+
+
+/* --------- Rookie mistakes --------- */
+
+
+
+/* --------- Anal aftercare --------- */
+
+
+
+/* --------- Product --------- */
+
+
+}
+
+
+/* ---------------- Small Devices, Tablets ---------------- */
+@media only screen and (max-width : 768px){
+
+
+
+}
+
+
+/* ---------------- Extra Small Devices, Phones ---------------- */ 
+@media only screen and (max-width : 480px) 
+{
+.p-wrapper {
+
+    padding-bottom: 0 !important;
+    margin: 0 -10px;
+
+}
+.rimming-strip
+{
+	padding-left:20px;
+	font-size: 20px;
+}
+.section-title 
+{
+    font-size: 34px;
+	line-height: 40px;
+}
+.section-sub-title
+{
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+.section-para
+{
+	font-size: 18px;
+	line-height: 28px;
+}
+.content-title
+{
+	font-size:26px;	
+}
+.pull-quote .circle
+{
+	width: 350px;
+	height: 350px;
+	-webkit-border-radius: 175px;
+	-moz-border-radius: 175px;
+	border-radius: 175px;
+}
+.pull-quote .circle .circle-img
+{
+	text-align: center;
+	margin-bottom: 10px;
+	width: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pull-quote .circle .quotes 
+{
+    text-align: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    padding: 0px 35px;
+}
+
+/* --------- Banner --------- */
+.main_banner
+{
+	background-image:url(../images/banner-bg-mobile.jpg);
+}
+.main_banner .board
+{
+	margin: 30px 0;
+	padding: 0 30px;
+}
+.main_banner .text-content
+{
+	padding: 0 40px;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+/* --------- Try it alone --------- */
+.try_alone .try_alone_mobile .section-para
+{
+	padding:0 40px;
+}
+
+
+/* --------- Hygiene tips --------- */
+.hygiene_tips .section-banner .section-banner-mobile .hygiene_tips_banner_img
+{
+	width:320px;
+}
+.hygiene_tips .section-banner .left-title
+{
+	width: 260px;
+	margin: 0 auto;
+}
+
+.hygiene_tips .section-content .tip-block .tip-img
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/* --------- Hygiene facts --------- */
+.hygiene_facts .section-para
+{
+	width:auto;
+	padding:0 30px;
+}
+.hygiene_facts .content-title
+{
+	padding:0 30px;
+}
+.hygiene_facts .facts_block .steps .step_block .step_block_mobile .step-img
+{
+	padding:0 40px;
+}
+.hygiene_facts .facts_block .steps
+{
+	margin: 50px auto;
+}
+
+/* --------- How to talk anal --------- */
+.how-to-talk-anal .section-banner
+{
+	padding-top:50px;
+}
+.how-to-talk-anal .section-banner .banner-left
+{
+	padding: 0 30px;
+}
+.how-to-talk-anal .section-banner .banner-right .banner-img-desktop
+{
+	display:none;
+}
+.how-to-talk-anal .section-banner .banner-right .banner-img-mobile
+{
+	display:block;
+}
+.how-to-talk-anal .section-banner .banner-right
+{
+	width: auto;
+	text-align: center;
+}
+.how-to-talk-anal .section-content .content-block
+{
+	padding: 0 40px;
+}
+.how-to-talk-anal .section-content .content-block-row
+{
+	padding: 0 40px;
+}
+
+
+/* --------- Rookie mistakes --------- */
+.rookie_mistakes .mistakes-block .mistake-left
+{
+	width: 90%;
+	display: block;
+	float: none;
+	background-position: center top;
+	background-size: contain;
+	margin-left: auto;
+	margin-right: auto;
+}
+.rookie_mistakes .mistakes-block .mistake-right
+{
+	width: 90%;
+	display: block;
+	float: none;
+	background-position: center top;
+	background-size: contain;
+	margin-left: auto;
+	margin-right: auto;
+}
+.rookie_mistakes .mistakes-block .mistake-left .mistake-text
+{
+	margin-top:0;
+}
+.rookie_mistakes .mistakes-block .mistake-right .mistake-text
+{
+	margin-top:0;
+}
+.rookie_mistakes .mistakes-block .mistake-text
+{
+	font-size:25px;
+}
+
+.rookie_mistakes .mistakes-block .mistake-1
+{
+	padding-top:185px;
+	height: 100px;
+}
+.rookie_mistakes .mistakes-block .mistake-2 
+{
+    height: 70px;
+    padding-top: 145px;
+}
+.rookie_mistakes .mistakes-block .mistake-3
+{
+	padding-top:175px;
+	height: 100px;
+}
+.rookie_mistakes .mistakes-block .mistake-4 
+{
+    height: 90px;
+	padding-top: 230px;
+}
+.rookie_mistakes .mistakes-block .mistake-5
+{
+	padding-top:180px;
+	height: 120px;
+}
+.rookie_mistakes .mistakes-block .mistake-6 
+{
+    height: 135px;
+	padding-top: 240px;
+}
+.rookie_mistakes .mistakes-block .mistake-7
+{
+	padding-top:195px;
+	height: 130px;
+}
+.rookie_mistakes .mistakes-block .mistake-8 
+{
+    height: 80px;
+	padding-top: 145px;
+}
+.rookie_mistakes .mistakes-block .mistake-9
+{
+	padding-top: 210px;
+	height: 90px;
+}
+
+/* --------- Anal aftercare --------- */
+.anal_aftercare
+{
+	padding:50px 0;
+}
+.anal_aftercare .section-para
+{
+	padding: 0 30px;
+}
+
+
+/* --------- Product --------- */
+.product .title-block
+{
+	width: auto;
+	padding: 0 50px;
+}
+.product .text-columns .row .product-block
+{
+	width:auto;
+}
+.product .text-columns .row .product-block .product-title
+{
+    font-size: 24px;
+    line-height: 36px;
+}
+}
+
+
+/*--------------- Custom, iPhone Retina ---------------- */ 
+@media only screen and (max-width : 320px) 
+{
+
+	
+}
+
+
+
+
+/* Landscape phones and down */
+@media (max-width: 479px) {
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 400px) {
+
+
+}
